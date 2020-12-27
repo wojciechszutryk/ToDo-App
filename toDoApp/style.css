@@ -45,5 +45,27 @@ body{
 }
 .wrapper ul li{
     margin-bottom: 10px;
-
+    line-height: 40px;
+}
+.wrapper ul li button{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    width: 40px;
+    vertical-align: 5px;
+    border: none;
+    outline:none;
+    transition: .2s;
+}
+.wrapper ul li button:hover{
+    color: red;
+}
+button i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-42%,-50%);
 }
