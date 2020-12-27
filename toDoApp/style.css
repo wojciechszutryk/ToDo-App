@@ -2,3 +2,48 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #000;
+    color: white;
+    font-family: "Roboto Thin", sans-serif;
+}
+.wrapper{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.wrapper h1{
+    margin-top: 3vh;
+}
+.wrapper input{
+    display: block;
+    margin: 3vh auto;
+    height: 5vh;
+    width: 100%;
+    font-size: 4vh;
+    line-height: 5vh;
+    text-align: center;
+}
+.wrapper button{
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    border: 3px solid grey;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.wrapper h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.wrapper ul{
+    list-style: none;
+}
+.wrapper ul li{
+    margin-bottom: 10px;
+
+}
