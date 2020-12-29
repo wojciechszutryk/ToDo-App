@@ -7,7 +7,7 @@ class Create{
         const li = document.createElement('li');
         li.id = this.id;
         li.textContent = this.description;
-        li.innerHTML += ' <button><i class="fas fa-trash-alt"></i></button>';
+        li.innerHTML += '<button><i class="fas fa-trash-alt"></i></button>';
         return li;
     }
 }
