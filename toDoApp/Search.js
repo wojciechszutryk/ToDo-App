@@ -1,8 +1,15 @@
 class Search{
-    static searchInclude(list, phrase){
-        return list.filter((elem) => elem.includes(phrase));
+    static searchIncludeTask(list, phrase){
+        const tasksIncludesPhrase = [];
+        for(let i = 0; i < list.length; i++){
+            if (list[i].description.includes(phrase)) tasksIncludesPhrase.push(list[i].description);
+        }
+        return tasksIncludesPhrase;
     }
-    static searchSame(list, phrase){
-        return !!list.includes(phrase);
+    static searchSameTask(list, phrase){
+        for(let i = 0; i < list.length; i++){
+            if (list[i].description === phrase) return i;
+        }
+        return null;
     }
 }

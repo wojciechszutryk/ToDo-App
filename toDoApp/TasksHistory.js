@@ -1,6 +1,6 @@
 class TasksHistory{
     constructor() {
-        this.tasksHistory = [];
+        this.tasksHistory = [{description: 'wojtyek',finished: 0}, {description: 'wojtek',finished: 0}, {description: 'Wojtek',finished: 0},{description: 'wOJTEK',finished: 0}];
     }
     getTasksHistory = () => this.tasksHistory;
     getUnfinishedTasksNumber = () => this.tasksHistory.filter((task) => !task.finished ).length;
@@ -11,6 +11,6 @@ class TasksHistory{
         }
     }
     finishTask(description) {
-
+        Search.searchSame(this.tasksHistory)
     }
 }
