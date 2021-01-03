@@ -6,12 +6,18 @@ body{
     background-color: #000;
     color: white;
     font-family: "Roboto Thin", sans-serif;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 .wrapper{
     width: 300px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    overflow: hidden;
 }
 .wrapper.active{
     filter: blur(8px);
@@ -42,14 +48,16 @@ body{
 }
 .wrapper h2{
     display: inline-block;
-    width: 150px;
+    width: 160px;
     margin-top: 30px;
     margin-bottom: 10px;
+    text-align: left;
 }
 .wrapper #history{
     display: inline-block;
-    width: 120px;
+    width: 110px;
     margin-left: 25px;
+    letter-spacing: 1px;
 }
 .wrapper ul{
     list-style: none;
@@ -88,9 +96,13 @@ button i{
     bottom: 10vh;
     width: 60vw;
     height: 60vh;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
     display: none;
     background-color: #ccc;
     z-index: 1;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 .historyPopUp.active{
     display: block;
@@ -100,9 +112,10 @@ button i{
     position: absolute;
     top: 0;
     right: 0;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
+    width: 30px;
+    height: 30px;
+    border-bottom-left-radius: 50%;
+    line-height: 30px;
     text-align: center;
     color: black;
     background-color: #fff;
@@ -113,17 +126,24 @@ button i{
     display: block;
 }
 .historyPopUp ul{
+    padding: 20px;
     list-style: none;
 }
-li span{
+.historyPopUp ul li{
+    width: 100%;
+}
+.historyPopUp ul li:first-child{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.historyPopUp ul li:nth-child(2n){
+    background-color: #fff;
+    color: #666;
+}
+.historyPopUp ul li span{
+    width: calc(100%/3);
     display: inline-block;
+    overflow: hidden;
 }
-li span.spanDescription{
-    width: 30%;
-}
-li span.spanStarted{
-    width: 30%;
-}
-li span.finished{
-    width: 30%;
-}
+
+

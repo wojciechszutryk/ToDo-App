@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5bded6e-6294-4ddb-94f4-e4d4f3d116b7" name="Default Changelist" comment="project status after day2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toDoApp/Application.js" beforeDir="false" afterPath="$PROJECT_DIR$/toDoApp/Application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toDoApp/TasksHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/toDoApp/TasksHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toDoApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/toDoApp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toDoApp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/toDoApp/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3 - petla for i forEach/Projekt3-zadanie1-plikiStartowe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - petla for i forEach/Projekt3-zadanie1-plikiStartowe/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../3 - petla for i forEach/Projekt3-zadanie1-plikiStartowe/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../3 - petla for i forEach/Projekt3-zadanie1-plikiStartowe/main.js" afterDir="false" />
@@ -63,6 +60,7 @@
       <workItem from="1609240388281" duration="10009000" />
       <workItem from="1609328624638" duration="5084000" />
       <workItem from="1609615288309" duration="9049000" />
+      <workItem from="1609674409240" duration="2859000" />
     </task>
     <servers />
   </component>
